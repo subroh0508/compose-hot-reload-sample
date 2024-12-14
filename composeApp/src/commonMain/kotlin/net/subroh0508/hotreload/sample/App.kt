@@ -24,7 +24,6 @@ fun App() {
         Column(Modifier.fillMaxWidth(), horizontalAlignment = Alignment.CenterHorizontally) {
             Button(onClick = { showContent = !showContent }) {
                 Text("Click me!")
-                Text("Click AAA!")
             }
             AnimatedVisibility(showContent) {
                 val greeting = remember { Greeting().greet() }
