@@ -102,7 +102,3 @@ compose.desktop {
         }
     }
 }
-
-tasks.register<ComposeHotRun>("runHot") {
-    mainClass.set("net.subroh0508.hotreload.sample.MainKt")
-}
